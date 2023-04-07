@@ -10,11 +10,11 @@ Through this project, I will explore the fundamental concepts of clustering and 
 ## Brief Overview
 The objective of this project is to implement the K-means clustering algorithm manually and compare it with the K-means implementation in the Sklearn library. The project will begin with exploratory data analysis (EDA) and data preprocessing to ensure that the data is in a suitable format for clustering.
 
-After preprocessing, the K-means algorithm will be implemented from scratch, which involves selecting the number of clusters, initializing the centroids, assigning data points to clusters, and updating the centroids iteratively until convergence.
+After preprocessing, the K-means algorithm will be implemented from scratch, which involves initializing the centroids, assigning data points to clusters, and updating the centroids iteratively until convergence.
 
-Next, we will compare the results of our implementation with the Sklearn K-means module by measuring the clustering accuracy using evaluation metrics such as inertia, silhouette score, and adjusted Rand Index (ARI).
+Next, I will compare the results of our implementation with the Sklearn K-means module by measuring the clustering accuracy using evaluation metrics such as inertia, and silhouette score.
 
-Finally, we will visualize the clustering results using a Voronoi diagram to see how well our algorithm has divided the data points into clusters.
+Finally, I will visualize the clustering results using a Voronoi diagram to see how well our algorithm has divided the data points into clusters.
 
 Overall, this project aims to provide a comprehensive understanding of the K-means algorithm and its implementation from scratch, as well as its performance compared to the Sklearn implementation, and visualizing the results to provide an intuitive understanding of the algorithm's behavior.
 
