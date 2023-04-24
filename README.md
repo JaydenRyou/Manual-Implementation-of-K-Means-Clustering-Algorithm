@@ -10,13 +10,13 @@ Through this project, I will explore the fundamental concepts of clustering and 
 ## Brief Overview
 The objective of this project is to implement the K-means clustering algorithm manually and compare it with the K-means implementation in the Sklearn library. The project will begin with exploratory data analysis (EDA) and data preprocessing to ensure that the data is in a suitable format for clustering.
 
-After preprocessing, the K-means algorithm will be implemented from scratch, which involves initializing the centroids, assigning data points to clusters, and updating the centroids iteratively until convergence.
+After preprocessing, the K-means algorithm will be implemented from scratch, initializing the centroids, assigning data points to clusters, and updating the centroids iteratively until convergence.
 
-Next, I will compare the results of our implementation with the Sklearn K-means module by measuring the clustering accuracy using evaluation metrics such as inertia, and silhouette score.
+Next, I will compare the clustering centroids results obtained using the sklearn implementation of KMeans with the results obtained using a manually implemented version of KMeans, where I use the same initial centroids for both implementations.
 
-Finally, I will visualize the clustering results using a Voronoi diagram to see how well our algorithm has divided the data points into clusters.
+The comparison of the resulting centroids will involve computing the Euclidean distance between each pair of centroids obtained from both implementations. If the centroids obtained from both implementations are similar, we should expect the distance between them to be small.
 
-Overall, this project aims to provide a comprehensive understanding of the K-means algorithm and its implementation from scratch, as well as its performance compared to the Sklearn implementation, and visualizing the results to provide an intuitive understanding of the algorithm's behavior.
+Overall, this project aims to provide a comprehensive understanding of the K-means algorithm and its implementation from scratch, as well as its performance compared to the Sklearn implementation.
 
 **Categorical Variable**             |  **Numerical Variable**
 :-------------------------:|:-------------------------:
